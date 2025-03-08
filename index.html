@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Lab Assessment</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Include Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Your content goes here -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Home Section -->
+        <header class=" text-center py-5">
+            <div class="container mt-4 h-100" id="home">
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, I'm Bricio Imbiki</h1>
+                    <p class="lead">I'm Bricio a Coding students at Onja Organization with a passion for web development.</p>
+                    <hr class="my-4">
+                    <p>Welcome to my personal portfolio website. Here you can find more about me and my work.</p>
+                    <a class="btn btn-primary btn-lg" href="#about" role="button">
+                        Learn
+          more
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="container mt-4 h-100" id="about">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-secondary text-white">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://imbikibricio.vercel.app/images/photo/bricio_imbiki.png" alt="bricio imbiki" class="img-fluid">
+                            </div>
+                            <p class="card-text mt-2">I am a Developer with extensive experience in
+                                <strong>PHP</strong>,
+                                <strong>Laravel</strong>, and
+                                <strong>Java</strong>.
+                            </p>
+                            <p class="card-text">
+                                I specialize in web development and have worked on various projects involving front-end
+              and back-end technologies, including
+                                <strong>HTML</strong> ,
+                                <strong>CSS</strong>,
+                                <strong>JavaScript</strong>, and
+                                <strong>MySQL</strong>
+                                .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="text-center">
+                                <img src="https://media.istockphoto.com/id/1388635225/photo/businessman-click-on-skills.jpg?s=612x612&w=is&k=20&c=BtdndKmlR7ViiBOde0mpTGCJ_whdOXtToYhT_tDxFls=" alt="Skills Image" class="img-fluid">
+                            </div>
+                            <ul class="mt-4">
+                                <li>
+                                    <strong>HTML & CSS:</strong>
+                                    Proficient in creating responsive and accessible web pages.
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>JavaScript:</strong>
+                                    Experienced in building dynamic and interactive web applications.
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>React:</strong>
+                                    Skilled in developing single-page applications using React.
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>Node.js:</strong>
+                                    Proficient in building server-side applications with Node.js.
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>Database Management:</strong>
+                                    Experienced with SQL and NoSQL databases.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4 h-100" id="contact">
+                <h2 class="text-center">
+                    <strong>Contact Me</strong>
+                </h2>
+                <hr>
+                <form action="index.html" target="_self" class="full-width-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            class="form-control"
+                            id="name"
+                            name="name"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input
+                            placeholder="Email"
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input
+                            placeholder="Subject"
+                            type="text"
+                            class="form-control"
+                            id="subject"
+                            name="subject"
+                            required
+                        >
+                    </div>
+                    <div class="form-group ">
+                        <label for="message">Message:</label>
+                        <textarea
+                            placeholder="Message"
+                            class="form-control"
+                            id="message"
+                            name="message"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+              <!-- Table Section -->
+            <div class="container mt-4 mb-4 h-100" id="table">
+              <h2 class="text-center"> <strong>Data Table</strong> </h2><hr>
+                <table class="table table-striped">
+                    <caption class="text-center"> <i>Sample Data</i></caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Occupation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bricio</td>
+                            <td>20</td>
+                            <td>Coding Student</td>
+                        </tr>
+                        <tr>
+                            <td>Eric</td>
+                            <td>20</td>
+                            <td>Coding Student</td>
+                        </tr>
+                        <tr>
+                            <td>Lolo</td>
+                            <td>20</td>
+                            <td>Coding Student</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Projects Section -->
+            <div class="container mt-4 h-100" id="projects">
+                <h2 class="text-center">
+                    <strong>Projects</strong>
+                </h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">online scooter reservation</h5>
+                                <div class="text-center">
+                                    <img src="https://imbikibricio.vercel.app/images/realisations/kintaSeviceLocationpage.png" alt="Project 1 Image" class="img-fluid">
+                                </div>
+                                <p class="card-text">The online scooter reservation platform is a web application developed to facilitate the booking and management of scooter rentals. It provides a user-friendly interface for customers to reserve scooters and for administrators to manage reservations.</p>
+                                <a href="https://github.com/bricio-imbiki/KintanaService" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Aluminum Workshop Management</h5>
+                                <div class="text-center">
+                                    <img src="https://imbikibricio.vercel.app/images/realisations/kintanaServiceAlu.png" alt="Project 2 Image" class="img-fluid">
+                                </div>
+                                <p class="card-text">The Aluminum Workshop Management System is a comprehensive solution designed to streamline and manage the operations of an aluminum workshop. This system helps in managing orders, inventory, employees, and customer relationships efficiently.</p>
+                                <a href="https://github.com/bricio-imbiki/KintanaServiceAlu" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">financial management application</h5>
+                                <div class="text-center">
+                                    <img src="https://imbikibricio.vercel.app/images/realisations/gestionfi1.png" alt="Project 3 Image" class="img-fluid">
+                                </div>
+                                <p class="card-text">The financial management application is a tool developed in PHP, using a WAMP server for database management. It allows tracking and analyzing the profits generated by a company.</p>
+                                <a href="https://github.com/bricio-imbiki/financial_management" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Interactive Box Animation -->
+            <div class="wrapper">
+                <h2>Interactive Box Animation</h2>
+                <button onclick="startAnimation('horizontal')">Move Horizontally</button>
+                <button onclick="startAnimation('vertical')">Move Vertically</button>
+                <button onclick="stopAnimation()">Stop</button>
+                <br>
+                <br>
+                <label>Speed:</label>
+                <input
+                    type="range"
+                    id="speedControl"
+                    min="1"
+                    max="10"
+                    value="5"
+                >
+                <div class="container">
+                    <div class="box">
+                        Hello, I'm an animated box!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class=" bg-dark text-white text-center py-5 mt-4">
+        <p class="mb-0 text-center text-body-secondary">&copy; 2025 Bricio Imbiki</p>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item mb-2">
+                <a href="https://github.com/bricio-imbiki/" class="nav-link p-2 text-body-secondary">GitHub</a>
+            </li>
+            <li class="nav-item mb-2">
+                <a href="https://www.facebook.com/bricio.imbiki.9/?_rdr" class="nav-link p-2 text-body-secondary">facebook</a>
+            </li>
+            <li class="nav-item mb-2">
+                <a href="https://imbikibricio.vercel.app/" target="_blank" class="nav-link p-2 text-body-secondary">More About Me</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
